@@ -2010,7 +2010,7 @@ void reader_set_right_prompt(const wcstring &new_prompt) { data->right_prompt = 
 // Ugly workaround for a missing feature to disable autosuggestion.
 // Juerd commented on May 28, 2016
 // https://github.com/fish-shell/fish-shell/issues/1363
-// void reader_set_allow_autosuggesting(bool flag) { data->allow_autosuggestion = flag; }
+//void reader_set_allow_autosuggesting(bool flag) { data->allow_autosuggestion = flag; }
 void reader_set_allow_autosuggesting(bool flag) { data->allow_autosuggestion = false; }
 
 void reader_set_expand_abbreviations(bool flag) { data->expand_abbreviations = flag; }
