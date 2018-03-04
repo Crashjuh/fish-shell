@@ -2007,7 +2007,8 @@ void reader_set_left_prompt(const wcstring &new_prompt) { data->left_prompt = ne
 
 void reader_set_right_prompt(const wcstring &new_prompt) { data->right_prompt = new_prompt; }
 
-void reader_set_allow_autosuggesting(bool flag) { data->allow_autosuggestion = flag; }
+//void reader_set_allow_autosuggesting(bool flag) { data->allow_autosuggestion = flag; }
+void reader_set_allow_autosuggesting(bool flag) { data->allow_autosuggestion = false; }
 
 void reader_set_expand_abbreviations(bool flag) { data->expand_abbreviations = flag; }
 
